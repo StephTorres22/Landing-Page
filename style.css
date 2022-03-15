@@ -31,12 +31,14 @@ color: #f9faf8;
     display: flex;
     flex: 1 0 auto;
     padding: 100px 0;
+    gap: 10px;
 
 }
 
 .left{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .hero-main{
@@ -50,12 +52,41 @@ color: #f9faf8;
     font-size: 18px;
 }
 
-.top-button{
+button{
     background-color: #3882f6;
     color: #f9faf8;
     padding: 10px;
-    width: 80px;
+    width: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.image-holder{
+    background-color: darkgray;
+    color: #1f2937;
+    width: 450px;
+    height: auto;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.information{
+    background-color: white;
+    padding: 100px 0;
+
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
     align-items: center;
 }
